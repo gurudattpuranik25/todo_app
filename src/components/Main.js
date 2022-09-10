@@ -48,7 +48,6 @@ function Main() {
           />
           <i onClick={btnHandler} id="addBtn" className="fa-solid fa-plus"></i>
         </div>
-
         <p>
           {itemArray.map((item, index) => {
             return (
@@ -64,6 +63,21 @@ function Main() {
 
         <a href="#" onClick={handleReset} className="clear">
           Clear Your Todos
+        </a>
+      </div>
+      <div className="social-icons ">
+        <span className="footer">Copyright &copy; 2022 - Gurudatt Puranik</span>
+        <a href="https://twitter.com/PuranikGurudatt">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/gurudatt-puranik-0933b0195/">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/gurudatt_puranik/">
+          <i class="fa-brands fa-square-instagram"></i>
+        </a>
+        <a href="https://github.com/gurudattpuranik25">
+          <i class="fa-brands fa-github"></i>
         </a>
       </div>
     </form>

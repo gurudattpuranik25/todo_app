@@ -42,7 +42,7 @@ a:hover {
   position: relative;
   padding: 1rem;
   width: 30%;
-  height: 70vh;
+  height: 62vh;
   overflow-y: auto;
   margin: 2rem auto;
   background: linear-gradient(to right, rgb(163, 93, 188), rgb(100, 30, 143));
@@ -80,4 +80,22 @@ a:hover {
   margin: 0 auto;
   padding: 1rem;
   letter-spacing: 0.1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.social-icons i {
+  color: rgb(255, 255, 255);
+}
+
+.footer {
+  font-size: 1.2rem;
 }
