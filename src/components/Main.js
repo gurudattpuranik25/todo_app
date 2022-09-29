@@ -61,7 +61,7 @@ function Main() {
           })}
         </p>
 
-        <a href="#" onClick={handleReset} className="clear">
+        <a href="/clear" onClick={handleReset} className="clear">
           Clear Your Todos
         </a>
       </div>
