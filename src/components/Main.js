@@ -65,20 +65,22 @@ function Main() {
           Clear Your Todos
         </a>
       </div>
-      <div className="social-icons ">
-        <span className="footer">Copyright &copy; 2022 - Gurudatt Puranik</span>
-        <a href="https://twitter.com/PuranikGurudatt">
-          <i class="fa-brands fa-twitter"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/gurudatt-puranik-0933b0195/">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-        <a href="https://www.instagram.com/gurudatt_puranik/">
-          <i class="fa-brands fa-square-instagram"></i>
-        </a>
-        <a href="https://github.com/gurudattpuranik25">
-          <i class="fa-brands fa-github"></i>
-        </a>
+      <div className="footer ">
+        <span>Copyright &copy; 2022 - Gurudatt Puranik</span>
+        <div className="social__icons">
+          <a href="https://twitter.com/PuranikGurudatt">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/gurudatt-puranik-0933b0195/">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/gurudatt_puranik/">
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+          <a href="https://github.com/gurudattpuranik25">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
       </div>
     </form>
   );

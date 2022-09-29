@@ -42,7 +42,7 @@ a:hover {
   position: relative;
   padding: 1rem;
   width: 30%;
-  height: 62vh;
+  min-height: 62vh;
   overflow-y: auto;
   margin: 2rem auto;
   background: linear-gradient(to right, rgb(163, 93, 188), rgb(100, 30, 143));
@@ -82,11 +82,11 @@ a:hover {
   letter-spacing: 0.1rem;
 }
 
-.social-icons {
+.footer,
+.social__icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 1rem;
   gap: 1.5rem;
   font-size: 1.5rem;
   color: white;
@@ -98,4 +98,36 @@ a:hover {
 
 .footer {
   font-size: 1.2rem;
+}
+
+@media (max-width: 1250px) {
+  .todo-body {
+    width: 60%;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+@media (max-width: 660px) {
+  .todo-body {
+    width: 80%;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+@media (max-width: 500px) {
+  .todo-body {
+    width: 90%;
+    transition: all 0.2s ease-in-out;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 430px) {
+  #todo-input {
+    font-size: 0.8rem;
+    transition: all 0.2s ease-in-out;
+  }
 }

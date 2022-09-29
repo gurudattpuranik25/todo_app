@@ -13,7 +13,7 @@ body::before {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   filter: brightness(0.3);
 }
 
@@ -39,4 +39,28 @@ body::before {
   font-weight: 500;
   color: rgb(255, 233, 255);
   letter-spacing: 0.4rem;
+}
+
+@media (max-width: 500px) {
+  .nav-image {
+    width: 100px;
+    height: 100px;
+    transition: all 0.2s ease-in-out;
+  }
+  .heading {
+    font-size: 2.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+@media (max-width: 430px) {
+  .nav-image {
+    width: 80px;
+    height: 80px;
+    transition: all 0.2s ease-in-out;
+  }
+  .heading {
+    font-size: 2.2rem;
+    transition: all 0.2s ease-in-out;
+  }
 }
